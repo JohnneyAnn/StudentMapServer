@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>MapServerHttpServlet</servlet-name>
+		<servlet-class>MapServerHttpServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MapServerHttpServlet</servlet-name>
+		<url-pattern>/hi</url-pattern>
+	</servlet-mapping>	
+
+</web-app>
+
